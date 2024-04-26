@@ -1,1 +1,9 @@
+<h1>My app</h1>
 <p>card works!</p>
+<button>Olá Mundo</button>
+<ul>
+  <li *ngFor="let p of produtos; let i = index"
+  (click)="remover()">
+    {{ i }} - {{ p }}
+  </li>
+</ul>
